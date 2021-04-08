@@ -9,8 +9,11 @@ function init() {
 
         methods:{
             addTodo: function () {
-                console.log(this.newTodo);
-                this.todos.push(this.newTodo)
+                this.todos.push(this.newTodo);
+                this.newTodo=''
+            },
+            removeTodo: function () {
+                
             }
         }
     });
