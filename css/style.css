@@ -39,6 +39,10 @@ header img{
     width: 50%;
 }
 
+.toDos h2{
+    text-align: center;
+}
+
 .toDos ul {
     list-style: none;
 }

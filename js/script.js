@@ -3,7 +3,7 @@ function init() {
         el:'#app',
 
         data:{
-            'todos':[1,2,3,4,5],
+            'todos':[],
             'newTodo':''
         },
 
