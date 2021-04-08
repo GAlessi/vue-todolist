@@ -21,13 +21,13 @@
             </header>
 
             <div class="newToDo">
-                <input type="text" placeholder="New Todo">
-                <button type="button" name="button">Aggiungi</button>
+                <input v-model="newTodo" type="text" placeholder="New Todo">
+                <button @click="addTodo" type="button" name="button">Aggiungi</button>
             </div>
 
             <div class="toDos">
                 <ul>
-                    <li class="todo" v-for=" i in toDos">{{i}} <i class="fas fa-times pointer"></i></li>
+                    <li class="todo" v-for=" i in todos">{{i}}<i class="fas fa-times pointer"></i></li>
                 </ul>
             </div>
         </div>
