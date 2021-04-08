@@ -12,8 +12,8 @@ function init() {
                 this.todos.push(this.newTodo);
                 this.newTodo=''
             },
-            removeTodo: function () {
-                
+            removeTodo: function (ind) {
+                this.todos.splice(ind,1)
             }
         }
     });

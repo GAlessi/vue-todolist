@@ -27,7 +27,7 @@
 
             <div class="toDos">
                 <ul>
-                    <li class="todo" v-for=" i in todos">{{i}}<i @click="removeTodo" class="fas fa-times pointer"></i></li>
+                    <li class="todo" v-for="(contInd, ind) in todos">{{contInd}}<i @click="removeTodo(ind)" class="fas fa-times pointer"></i></li>
                 </ul>
             </div>
         </div>
